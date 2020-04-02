@@ -1,7 +1,7 @@
 # ruby
 
-ruby is an extension for the [bedrock](https://github.com/bedrock-env/ack)
-project to provide ruby settings in the bedrock environment.
+ruby is an extension for the [Bedrock](https://github.com/bedrock-env/bedrock)
+project to provide ruby settings in the Bedrock environment.
 
 ### Provides
 
