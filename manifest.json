@@ -29,6 +29,35 @@
           "operation": "symlink"
         }
       ]
+    },
+    "ubuntu": {
+      "apt": {
+        "post_install_messages": [
+          "Be sure to run :PlugInstall from Vim."
+        ]
+      },
+      "files": [
+        {
+          "source": "vimbundles/ruby",
+          "target": "$HOME/.vimbundles/ruby",
+          "operation": "symlink"
+        },
+        {
+          "source": "gemrc",
+          "target": "$HOME/.gemrc",
+          "operation": "symlink"
+        },
+        {
+          "source": "irbrc",
+          "target": "$HOME/.irbrc",
+          "operation": "symlink"
+        },
+        {
+          "source": "pryrc",
+          "target": "$HOME/.pryrc",
+          "operation": "symlink"
+        }
+      ]
     }
   }
 }
